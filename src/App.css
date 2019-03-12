@@ -2,14 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
+  /*background-image: url('./Pictures/bgBusiness.jpeg');*/
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +15,132 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+  width: 100%;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header .layer1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  height: 70%;
+  background: url("./Pictures/bgBusiness.jpeg");
+  background-position: center;
+  background-size: 115vw;
+  background-repeat: no-repeat;
+  
+  border-radius: 15px;
+  text-align: center;
+  z-index: 1;
+}
+
+.layer1 section{
+  color: black;
+  font-family: 'Coming Soon', cursive;
+  animation: text 4s 1;
+}
+
+@keyframes text{
+  0%{
+    opacity: 0;
+    color: white;
+    margin-top: -3.2em;
   }
-  to {
-    transform: rotate(360deg);
+  30%{
+    opacity: 0;
+    letter-spacing: 4px;
+  }
+  95%{
+    letter-spacing: 0px;
   }
 }
+
+.layer1 div{
+  color: rgb(0, 0, 0);
+  font-family: 'Rock Salt', cursive;
+  margin-top: 22vh;
+  font-size: 1.3em;
+  position: relative;
+  animation: textappear 3s;
+}
+
+@keyframes textappear{
+  0%{
+    margin-top: 6.5em;
+  }
+  30%{
+    margin-top: 6.5em;
+  }
+}
+
+.layer1:hover{
+  box-shadow: 0 25px 60px  rgb(0, 0, 0, .8);
+  transition: .5s;
+}
+
+.layer1:hover ~ .layer2{
+  transition: .5s;
+  filter: blur(4px);
+}
+
+header .layer2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./Pictures/bgBusiness.jpeg");
+  background-repeat: no-repeat;
+  background-size: 115vw;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header button{
+  background-color: rgba(214, 202, 202, 0);
+  border: solid 1.5px;
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 3em;
+  font-size: 1em;
+  font-family: 'Coming Soon', cursive;
+  cursor: pointer; 
+  animation: text 3s 1;
+}
+
+header button:hover{
+  box-shadow: 0 0 10px rgb(0, 0, 0, .8);
+  transition: .2s;
+  background-color: black;
+  color: white;
+}
+
+header button:active{
+  transform: scale3d(.9,.9,1);
+}
+
+@media screen and (max-width: 1024px){
+  /* For small devices */
+  header .layer2{
+    background-size: cover;
+  }
+
+  header .layer1{
+    width: 80%;
+    height: 50%;
+    background: none;
+    background-position: center;
+  }
+
+  .layer1 div{
+    margin-top: 12vh;
+  }
+}
+
+
