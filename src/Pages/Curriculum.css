@@ -184,7 +184,7 @@ footer{
     }
 
     .body-background {
-        background-size: 316%;
+        background-size: cover;
     }
 
     .separator {
