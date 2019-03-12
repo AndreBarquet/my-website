@@ -184,10 +184,19 @@ footer{
     }
 
     .body-background {
-        background-position: center 0vw;
-        background-color: black;
+        background: #08080800;
+    }
+
+    .bgSmartphone{
+        display: table;
+        width: 100%;
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:3000/static/media/architectural-design-architecture-ceiling-380768.ef66d3fd.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:3000/static/media/architectural-design-architecture-ceiling-380768.ef66d3fd.jpg);
+        background-position: center top;
         background-size: 180vh;
         background-repeat: no-repeat;
+        height: 350px;
+        color: white;
     }
 
     .separator {
