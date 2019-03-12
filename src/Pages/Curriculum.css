@@ -169,6 +169,7 @@ footer{
         margin-top: 37%;
         font-size: 1.5em;
     }
+    
 }
 
 @media screen and (max-width: 600px){
@@ -180,6 +181,10 @@ footer{
         margin-left: 7%;
         margin-right: 7%;
         transform: translate(-50%, -50%)
+    }
+
+    .body-background {
+        background-size: 316%;
     }
 
     .separator {
