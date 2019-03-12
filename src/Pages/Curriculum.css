@@ -184,10 +184,10 @@ footer{
     }
 
     .body-background {
-        background-attachment: initial;
+        background-position: center 0vw;
+        background-color: black;
         background-size: 180vh;
         background-repeat: no-repeat;
-        
     }
 
     .separator {
