@@ -5,12 +5,8 @@
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
+    height: 350px;
     color: white;
-}
-
-.bgSmartphone{
-    height: 100vh;
-    min-height: 100%;
 }
 
 header{
@@ -188,12 +184,10 @@ footer{
     }
 
     .body-background {
+        background-position: center 0vw;
         background-color: black;
         background-size: 180vh;
         background-repeat: no-repeat;
-        height: 100vh;
-        min-height: 100%;
-        background-attachment: scroll;
     }
 
     .separator {

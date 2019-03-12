@@ -8,7 +8,6 @@ class App extends Component {
 
   render() {
     return (
-      <div className="bgSmartphone">
       <div className="body-background">
         <header>
           <Fade bottom>
@@ -166,7 +165,6 @@ class App extends Component {
           <SocialIcon className="socialIcon" url="https://www.instagram.com/andrebarquet/" target="_blank"/>
           <SocialIcon className="socialIcon" url="https://www.facebook.com/andreluiz.barquet" target="_blank"/>
         </footer>
-      </div>
       </div>
     );
   }
