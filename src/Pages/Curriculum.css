@@ -183,7 +183,7 @@ footer{
         transform: translate(-50%, -50%)
     }
 
-    .body-background {
+    .body-background::before {
         content: "";
         display: block;
         position: fixed;
@@ -191,8 +191,11 @@ footer{
         top: 0;
         width: 100%;
         height: 100%;
-        position: fixed;
-        background-attachment: unset;
+        z-index: -10;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .separator {
