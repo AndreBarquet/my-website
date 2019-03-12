@@ -147,6 +147,7 @@ footer{
 
 .socialIcon{
     margin: .4em;
+    border-radius: 50%; 
 }
 
 .socialIcon:hover{
