@@ -159,7 +159,7 @@ footer{
     background-color: black;
 }
 
-@media screen and (max-width: 1025px) and (min-width: 601px) and (min-height: 700px){
+@media screen and (max-width: 1025px) and (min-width: 701px) and (min-height: 700px){
     /* For tablet devices */
     #intro{
         text-align: center;
@@ -172,7 +172,7 @@ footer{
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     /* For smartphones devices */
     #intro{
         text-align: center;
@@ -184,8 +184,10 @@ footer{
     }
 
     .body-background {
-
-        -webkit-transform: translate3d(0,0,0);
+        background-attachment: initial;
+        background-size: 180vh;
+        background-repeat: no-repeat;
+        
     }
 
     .separator {
