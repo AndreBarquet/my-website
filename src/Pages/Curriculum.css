@@ -184,9 +184,8 @@ footer{
     }
 
     .body-background {
-        background-size: 350vw;
-        background-repeat: no-repeat;
-        background-attachment: initial;
+
+        -webkit-transform: translate3d(0,0,0);
     }
 
     .separator {
@@ -194,4 +193,6 @@ footer{
         margin-top: -25vw;
         clip-path: polygon(calc(100% + 33vw) 0%, 100% 0, 100% 100%, 0 100%);
     }
+
+    
 }
