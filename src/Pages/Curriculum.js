@@ -76,7 +76,7 @@ class App extends Component {
                   </div>
                 </div>
                 <div className="skillBox">
-                  <p>Java &nbsp; - &nbsp; &nbsp; 90%</p>
+                  <p>Java &nbsp; - &nbsp; &nbsp; 85%</p>
                   <div className="skill">
                     <div className="skill_level" id="java"/>
                   </div>
@@ -103,19 +103,19 @@ class App extends Component {
               <div className="infobox">
                   <h2>Frameworks e Bibliotecas</h2>
                   <div className="skillBox">
-                    <p>Bootstrap &nbsp; - &nbsp; &nbsp; 90%</p>
+                    <p>Bootstrap &nbsp; - &nbsp; &nbsp; 80%</p>
                     <div className="skill">
                       <div className="skill_level" id="bootstrap"/>
                     </div>
                   </div>
                   <div className="skillBox">
-                    <p>React &nbsp; - &nbsp; &nbsp; 85%</p>
+                    <p>React &nbsp; - &nbsp; &nbsp; 75%</p>
                     <div className="skill">
                       <div className="skill_level" id="react"/>
                     </div>
                   </div>
                   <div className="skillBox">
-                    <p>Node &nbsp; - &nbsp; &nbsp; 80%</p>
+                    <p>Node &nbsp; - &nbsp; &nbsp; 70%</p>
                     <div className="skill">
                       <div className="skill_level" id="node"/>
                     </div>
